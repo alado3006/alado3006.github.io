@@ -1,0 +1,142 @@
+/* css para el texto EJEMPLO CSS EXTERNO */
+H3 {
+    color: #f1c40f ;
+    font-size:20px;
+}
+
+/* css para calculadora */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#calculadora {
+  width: 340px;
+  height: 570px;
+  position: absolute; /* Cambiado de 'relative' a 'absolute' para posicionarlo de forma absoluta */
+  top: 100px; /* Espaciado desde la parte superior */
+  left: 675px; /* Espaciado desde la parte izquierda */
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#title {
+  text-align: center;
+  padding-top: 10px;
+}
+
+#resultado {
+  height: 120px;
+}
+
+.vsaida {
+  text-align: right;
+  height: 60px;
+  width: 275px;
+  margin: -1px 20px;
+  font-size: 30px;
+  outline: none;
+  border: none;
+}
+
+.teclado {
+  height: 400px;
+}
+
+.botaoAux,
+.numero,
+.limpar,
+.divisao,
+.soma,
+.multiplicacao,
+.subtracao,
+.igual {
+  height: 50px;
+  width: 50px;
+  margin: 15px;
+  float: left;
+  border-radius: 50%;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.divisao {
+  font-size: 20px;
+  background-color: #70d6ff;
+}
+
+.soma {
+  font-size: 20px;
+  background-color: #ffd670;
+}
+
+.multiplicacao {
+  font-size: 20px;
+  background-color: #ff70a6;
+}
+
+.subtracao {
+  font-size: 20px;
+  background-color: #ff9770;
+}
+
+.igual {
+  font-size: 20px;
+  background-color: #e9ff70;
+}
+
+.numero {
+  background-color: #eaedef;
+}
+
+.numero,
+.botaoAux,
+.limpar,
+.divisao,
+.soma,
+.multiplicacao,
+.igual,
+.subtracao {
+  cursor: pointer;
+}
+
+.botaoAux:active,
+.numero:active,
+.limpar:active,
+.divisao:active,
+.soma:active,
+.multiplicacao:active,
+.subtracao:active,
+.igual:active {
+  font-size: 13px;
+}
+
+.botaoAux:focus,
+.numero:focus,
+.vazio:focus,
+.limpar:focus,
+.divisao:focus,
+.soma:focus,
+.multiplicacao:focus,
+.subtracao:focus,
+.igual:focus {
+  outline: 0;
+}
+
+
+/* css para la imagen de fondo */
+body {
+    background-image: url('https://wallpapers.com/images/hd/a-bug-s-life-flik-friends-ummai2t2961sy7fh.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* fin de código css */
